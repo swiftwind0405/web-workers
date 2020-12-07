@@ -1,7 +1,7 @@
 // 使用worker之前需要检测当前环境支持不支持
 if (window.Worker) {
   // 创建一个专用worker
-  var myWorker = new Worker("worker.js");
+  var myWorker = new Worker("worker1.js");
 
   // 拿到DOM
   var first = document.querySelector('#number1');
